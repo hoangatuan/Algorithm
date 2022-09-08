@@ -11,8 +11,6 @@ let package = Package(
         .library(
             name: "Algorithm",
             targets: ["Algorithm"]),
-        .library(name: "Processing",
-                 targets: ["Processing"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
