@@ -11,7 +11,9 @@ let package = Package(
         .library(
             name: "Algorithm",
             targets: ["Algorithm"]),
-        .library(name: "Processing",
+        .library(name: "Wrap",
+                 targets: ["Algorithm", "Processing"]),
+        .library(name: "Processor",
                  targets: ["Processing"])
     ],
     dependencies: [
