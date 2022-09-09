@@ -1,5 +1,4 @@
 import UIKit
-import Processing
 
 public struct Algorithm {
     public private(set) var text = "Hello, World!"
@@ -9,6 +8,5 @@ public struct Algorithm {
     
     public mutating func modify(with newValue: String) {
         text = newValue
-        Processing.ImageProcessing.process()
     }
 }
