@@ -1,5 +1,3 @@
-import UIKit
-
 public struct Algorithm {
     public private(set) var text = "Hello, World!"
 
